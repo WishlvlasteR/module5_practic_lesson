@@ -10,7 +10,7 @@ class House():
         Выводит этажи от 1 до new_floor, если он существует.
         Если этаж недопустим, выводит сообщение об ошибке.
         """
-        if new_floor <= self.number_of_floors > 1:
+        if self.number_of_floors >= new_floor > 0:
             for i in range(1, new_floor + 1):
                 print(i)
         else:
