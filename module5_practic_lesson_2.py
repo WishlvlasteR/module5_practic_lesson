@@ -1,4 +1,4 @@
-class House():
+class House:
     def __init__(self, name, number_of_floors):
         """Инициализация объекта House с названием и количеством этажей."""
         self.name = name
